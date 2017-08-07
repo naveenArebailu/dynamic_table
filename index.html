@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>dynamic table</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>       
+        <script type="text/javascript" src="dynamic.js"></script> 
+      <table id="myTable">
+        <th>Name</th>
+        <th>Age</th>
+        <th>Gender</th>
+        <th>Occupation and Employer</th>
+        <th>Add</th>
+        <tr>
+            <td><input type="text" id="txtName" /></td>
+            <td><input type="text" id="txtAge" /></td>
+            <td><input type="text" id="txtGender" /></td>
+            <td><input type="text" id="txtOccupation" /></td>
+            <td><input type="button" id="btnAdd" class="button-add" onClick="insertRow()" value="add"/></td>
+        </tr>
+      </table>
+    </body>
+</html>
